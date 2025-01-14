@@ -14,7 +14,7 @@ say_greeting("Mansi","Ssup")
 def get_valid_int_input(prompt):
     while True:
         try:
-            return int(input(print))
+            return int(input(promt))
         except ValueError:
             print("Please enter a valid integer")
             continue
